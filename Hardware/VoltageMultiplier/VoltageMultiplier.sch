@@ -1,0 +1,455 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D1
+U 1 1 600CD7D5
+P 1600 1650
+F 0 "D1" V 1646 1570 50  0000 R CNN
+F 1 "2CL2FP" V 1555 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 1600 1650 50  0001 C CNN
+F 3 "~" H 1600 1650 50  0001 C CNN
+	1    1600 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 600CEED6
+P 1800 1650
+F 0 "D2" V 1754 1730 50  0000 L CNN
+F 1 "2CL2FP" V 1845 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 1800 1650 50  0001 C CNN
+F 3 "~" H 1800 1650 50  0001 C CNN
+	1    1800 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 600CFA3B
+P 1650 1250
+F 0 "C1" V 1902 1250 50  0000 C CNN
+F 1 "1nF" V 1811 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 1688 1100 50  0001 C CNN
+F 3 "~" H 1650 1250 50  0001 C CNN
+	1    1650 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 600D1E26
+P 1650 2050
+F 0 "C2" V 1902 2050 50  0000 C CNN
+F 1 "1nF" V 1811 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 1688 1900 50  0001 C CNN
+F 3 "~" H 1650 2050 50  0001 C CNN
+	1    1650 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 1800 1800 1850
+Wire Wire Line
+	1800 1500 1800 1250
+Wire Wire Line
+	1600 1800 1600 1850
+Wire Wire Line
+	1600 1850 1800 1850
+Connection ~ 1800 1850
+Wire Wire Line
+	1800 1850 1800 2050
+Wire Wire Line
+	1600 1500 1500 1500
+Wire Wire Line
+	1500 1500 1500 1250
+Wire Wire Line
+	1400 2050 1500 2050
+Wire Wire Line
+	1500 1250 1400 1250
+Connection ~ 1500 1250
+$Comp
+L Device:D D3
+U 1 1 60126B48
+P 2000 1650
+F 0 "D3" V 2046 1570 50  0000 R CNN
+F 1 "2CL2FP" V 1955 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 2000 1650 50  0001 C CNN
+F 3 "~" H 2000 1650 50  0001 C CNN
+	1    2000 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 60126B4E
+P 2200 1650
+F 0 "D4" V 2154 1730 50  0000 L CNN
+F 1 "2CL2FP" V 2245 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 2200 1650 50  0001 C CNN
+F 3 "~" H 2200 1650 50  0001 C CNN
+	1    2200 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60126B54
+P 2050 1250
+F 0 "C3" V 2302 1250 50  0000 C CNN
+F 1 "1nF" V 2211 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2088 1100 50  0001 C CNN
+F 3 "~" H 2050 1250 50  0001 C CNN
+	1    2050 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60126B5A
+P 2050 2050
+F 0 "C4" V 2302 2050 50  0000 C CNN
+F 1 "1nF" V 2211 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2088 1900 50  0001 C CNN
+F 3 "~" H 2050 2050 50  0001 C CNN
+	1    2050 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1800 2200 1850
+Wire Wire Line
+	2200 1500 2200 1250
+Wire Wire Line
+	2000 1800 2000 1850
+Wire Wire Line
+	2000 1850 2200 1850
+Connection ~ 2200 1850
+Wire Wire Line
+	2200 1850 2200 2050
+Wire Wire Line
+	2000 1500 1900 1500
+Wire Wire Line
+	1900 1500 1900 1250
+Wire Wire Line
+	1800 2050 1900 2050
+Wire Wire Line
+	1900 1250 1800 1250
+Connection ~ 1900 1250
+$Comp
+L Device:D D5
+U 1 1 6012941D
+P 2400 1650
+F 0 "D5" V 2446 1570 50  0000 R CNN
+F 1 "2CL2FP" V 2355 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 2400 1650 50  0001 C CNN
+F 3 "~" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 60129423
+P 2600 1650
+F 0 "D6" V 2554 1730 50  0000 L CNN
+F 1 "2CL2FP" V 2645 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 2600 1650 50  0001 C CNN
+F 3 "~" H 2600 1650 50  0001 C CNN
+	1    2600 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60129429
+P 2450 1250
+F 0 "C5" V 2702 1250 50  0000 C CNN
+F 1 "1nF" V 2611 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2488 1100 50  0001 C CNN
+F 3 "~" H 2450 1250 50  0001 C CNN
+	1    2450 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6012942F
+P 2450 2050
+F 0 "C6" V 2702 2050 50  0000 C CNN
+F 1 "1nF" V 2611 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2488 1900 50  0001 C CNN
+F 3 "~" H 2450 2050 50  0001 C CNN
+	1    2450 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1800 2600 1850
+Wire Wire Line
+	2600 1500 2600 1250
+Wire Wire Line
+	2400 1800 2400 1850
+Wire Wire Line
+	2400 1850 2600 1850
+Connection ~ 2600 1850
+Wire Wire Line
+	2600 1850 2600 2050
+Wire Wire Line
+	2400 1500 2300 1500
+Wire Wire Line
+	2300 1500 2300 1250
+Wire Wire Line
+	2200 2050 2300 2050
+Wire Wire Line
+	2300 1250 2200 1250
+Connection ~ 2300 1250
+$Comp
+L Device:D D7
+U 1 1 6012BBA2
+P 2800 1650
+F 0 "D7" V 2846 1570 50  0000 R CNN
+F 1 "2CL2FP" V 2755 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 2800 1650 50  0001 C CNN
+F 3 "~" H 2800 1650 50  0001 C CNN
+	1    2800 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 6012BBA8
+P 3000 1650
+F 0 "D8" V 2954 1730 50  0000 L CNN
+F 1 "2CL2FP" V 3045 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 3000 1650 50  0001 C CNN
+F 3 "~" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 6012BBAE
+P 2850 1250
+F 0 "C7" V 3102 1250 50  0000 C CNN
+F 1 "1nF" V 3011 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2888 1100 50  0001 C CNN
+F 3 "~" H 2850 1250 50  0001 C CNN
+	1    2850 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 6012BBB4
+P 2850 2050
+F 0 "C8" V 3102 2050 50  0000 C CNN
+F 1 "1nF" V 3011 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 2888 1900 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 1800 3000 1850
+Wire Wire Line
+	3000 1500 3000 1250
+Wire Wire Line
+	2800 1800 2800 1850
+Wire Wire Line
+	2800 1850 3000 1850
+Connection ~ 3000 1850
+Wire Wire Line
+	3000 1850 3000 2050
+Wire Wire Line
+	2800 1500 2700 1500
+Wire Wire Line
+	2700 1500 2700 1250
+Wire Wire Line
+	2600 2050 2700 2050
+Wire Wire Line
+	2700 1250 2600 1250
+Connection ~ 2700 1250
+$Comp
+L Device:D D9
+U 1 1 6012E322
+P 3200 1650
+F 0 "D9" V 3246 1570 50  0000 R CNN
+F 1 "2CL2FP" V 3155 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 3200 1650 50  0001 C CNN
+F 3 "~" H 3200 1650 50  0001 C CNN
+	1    3200 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 6012E328
+P 3400 1650
+F 0 "D10" V 3354 1730 50  0000 L CNN
+F 1 "2CL2FP" V 3445 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 3400 1650 50  0001 C CNN
+F 3 "~" H 3400 1650 50  0001 C CNN
+	1    3400 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 6012E32E
+P 3250 1250
+F 0 "C9" V 3502 1250 50  0000 C CNN
+F 1 "1nF" V 3411 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 3288 1100 50  0001 C CNN
+F 3 "~" H 3250 1250 50  0001 C CNN
+	1    3250 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 6012E334
+P 3250 2050
+F 0 "C10" V 3502 2050 50  0000 C CNN
+F 1 "1nF" V 3411 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 3288 1900 50  0001 C CNN
+F 3 "~" H 3250 2050 50  0001 C CNN
+	1    3250 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 1800 3400 1850
+Wire Wire Line
+	3400 1500 3400 1250
+Wire Wire Line
+	3200 1800 3200 1850
+Wire Wire Line
+	3200 1850 3400 1850
+Connection ~ 3400 1850
+Wire Wire Line
+	3400 1850 3400 2050
+Wire Wire Line
+	3200 1500 3100 1500
+Wire Wire Line
+	3100 1500 3100 1250
+Wire Wire Line
+	3000 2050 3100 2050
+Wire Wire Line
+	3100 1250 3000 1250
+Connection ~ 3100 1250
+$Comp
+L Device:D D11
+U 1 1 6013133D
+P 3600 1650
+F 0 "D11" V 3646 1570 50  0000 R CNN
+F 1 "2CL2FP" V 3555 1570 50  0000 R CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 3600 1650 50  0001 C CNN
+F 3 "~" H 3600 1650 50  0001 C CNN
+	1    3600 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 60131343
+P 3800 1650
+F 0 "D12" V 3754 1730 50  0000 L CNN
+F 1 "2CL2FP" V 3845 1730 50  0000 L CNN
+F 2 "Diode_THT:D_P600_R-6_P20.00mm_Horizontal" H 3800 1650 50  0001 C CNN
+F 3 "~" H 3800 1650 50  0001 C CNN
+	1    3800 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 60131349
+P 3650 1250
+F 0 "C11" V 3902 1250 50  0000 C CNN
+F 1 "1nF" V 3811 1250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 3688 1100 50  0001 C CNN
+F 3 "~" H 3650 1250 50  0001 C CNN
+	1    3650 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 6013134F
+P 3650 2050
+F 0 "C12" V 3902 2050 50  0000 C CNN
+F 1 "1nF" V 3811 2050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W13.9mm_P15.00mm_MKT" H 3688 1900 50  0001 C CNN
+F 3 "~" H 3650 2050 50  0001 C CNN
+	1    3650 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 1800 3800 1850
+Wire Wire Line
+	3800 1500 3800 1250
+Wire Wire Line
+	3600 1800 3600 1850
+Wire Wire Line
+	3600 1850 3800 1850
+Connection ~ 3800 1850
+Wire Wire Line
+	3800 1850 3800 2050
+Wire Wire Line
+	3600 1500 3500 1500
+Wire Wire Line
+	3500 1500 3500 1250
+Wire Wire Line
+	3400 2050 3500 2050
+Wire Wire Line
+	3500 1250 3400 1250
+Connection ~ 3500 1250
+$Comp
+L Connector:Screw_Terminal_01x01 J2
+U 1 1 601368BF
+P 1200 2050
+F 0 "J2" H 1280 2092 50  0000 L CNN
+F 1 "AC IN" H 1280 2001 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 1200 2050 50  0001 C CNN
+F 3 "~" H 1200 2050 50  0001 C CNN
+	1    1200 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J4
+U 1 1 6013A22D
+P 3800 1050
+F 0 "J4" H 3880 1092 50  0000 L CNN
+F 1 "DC +" H 3880 1001 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 3800 1050 50  0001 C CNN
+F 3 "~" H 3800 1050 50  0001 C CNN
+	1    3800 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J3
+U 1 1 6013B561
+P 1500 1050
+F 0 "J3" H 1580 1092 50  0000 L CNN
+F 1 "DC -" H 1580 1001 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 1500 1050 50  0001 C CNN
+F 3 "~" H 1500 1050 50  0001 C CNN
+	1    1500 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J1
+U 1 1 6013D3C8
+P 1200 1250
+F 0 "J1" H 1280 1292 50  0000 L CNN
+F 1 "AC IN" H 1280 1201 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 1200 1250 50  0001 C CNN
+F 3 "~" H 1200 1250 50  0001 C CNN
+	1    1200 1250
+	-1   0    0    1   
+$EndComp
+Connection ~ 3800 1250
+Connection ~ 1800 1250
+Connection ~ 1800 2050
+Connection ~ 2200 1250
+Connection ~ 2200 2050
+Connection ~ 2600 1250
+Connection ~ 2600 2050
+Connection ~ 3000 1250
+Connection ~ 3000 2050
+Connection ~ 3400 1250
+Connection ~ 3400 2050
+$EndSCHEMATC
